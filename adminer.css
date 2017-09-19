@@ -1,5 +1,5 @@
 /*
- * Dark Theme by Pepa Linha [http://webdream.cz]
+ * Dark Theme by Pepa Linha [http://webdream.cz] Edited by marf
  * @version 1.0.0
  */
 
@@ -9,7 +9,7 @@ body {
 }
 
 body {
-    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
     background: #312f42;
     color: #fff;
 }
@@ -26,7 +26,7 @@ h2 {
     padding: 0 0 6px;
     background: none;
     border: 0;
-    font-family: "Segoe UI Light", "Segoe UI", "HelveticaNeue-Thin", Arial, sans-serif;
+    font-family: "Roboto Light", "Roboto", "HelveticaNeue-Thin", Arial, sans-serif;
     font-size: 46px;
     font-weight: normal;
     color: #fff;
@@ -40,10 +40,8 @@ h3 {
     font-size: 15px;
     margin: 60px 0 30px;
     padding: 0 0 6px;
-    letter-spacing: 2px;
     font-weight: bold;
     color: #5df1dc;
-    text-transform: uppercase;
 }
 
 p {
@@ -51,7 +49,7 @@ p {
 }
 
 a {
-    color: #83b0e0;
+    color: #5df1dc;
     text-decoration: none;
 }
 
@@ -188,7 +186,7 @@ legend {
     padding: 10px 0;
     margin: 0;
     color: #fff;
-    font-family: "Segoe UI Semibold", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Roboto Semibold", "Roboto", "Helvetica Neue", Arial, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -225,8 +223,9 @@ p code + a:visited:hover {
 }
 
 #content {
-    margin: 0 54px 0 430px;
+    margin: 0 54px 0 388px;
     padding: 50px 0 0;
+	font-family: "Open Sans";
 }
 
 #content > p {
@@ -559,7 +558,6 @@ input[type=button] {
     font-size: 12px;
     border-radius: 2px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
     line-height: 42px;
     box-shadow: 0 3px 20px 0 rgba(93, 241, 220, 0.06);
 }
@@ -729,7 +727,6 @@ form p label {
 #lang select {
     font-size: 12px;
     padding: 0;
-    text-align: right;
     border: 0;
     background: none;
     -webkit-appearance: none;
@@ -737,10 +734,6 @@ form p label {
     appearance: none;
     cursor: pointer;
     outline: 0;
-}
-
-#lang select option {
-    text-align: right;
 }
 
 .rtl #lang {
